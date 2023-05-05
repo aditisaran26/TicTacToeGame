@@ -1,0 +1,55 @@
+.board__row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.board__container{
+  
+  margin: 200px;
+  border-width: 5px;
+}
+
+.square{
+  border: 1px solid black;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ border-width: 3px;
+
+
+}
+.border__headline{
+  display: flex;
+  justify-content: center;
+  
+}
+.board__container > button{
+  margin-top: 20px;
+  display: flex;
+  min-height:60px; 
+  min-width: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color:#0a0a23;
+  color: #fff;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  
+}
+.board__container >:hover{
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  
+}
+.board__container> button:hover {
+  background-color:red;
+  transition: 0.7s;
+}
+.board__winner{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: 200px;
+
+}
